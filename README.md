@@ -34,13 +34,13 @@ cacx-lesion-segmentation/
 │   ├── inference.py           the LesionInstanceInference class and segment() entry point
 │   └── cli.py                 command line interface
 ├── scripts/
-│   └── download_weights.py    downloads the released checkpoint
+│   └── download_weights.py    downloads the open-sourced checkpoint
 ├── notebooks/
 │   └── inference_demo.ipynb   worked example: single image, folder, label export
 ├── tests/
-│   └── test_pipeline.py       smoke tests (no download required)
+│   └── test_pipeline.py       smoke tests
 ├── assets/
-│   └── example_output.png     illustrative figure referenced below
+│   └── example_outputs     
 ├── requirements.txt
 ├── pyproject.toml
 └── LICENSE
