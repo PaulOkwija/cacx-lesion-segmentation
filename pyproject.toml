@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cacx-seg"
+version = "1.0.0"
+description = "Instance segmentation of cervical cancer lesions in colposcopy images using Mask R-CNN."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [{ name = "Paul Mugume" }]
+dependencies = [
+    "torch>=2.0",
+    "torchvision>=0.15",
+    "opencv-python-headless>=4.8",
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "scikit-image>=0.21",
+    "scipy>=1.10",
+    "matplotlib>=3.7",
+    "tqdm>=4.65",
+]
+
+[project.optional-dependencies]
+download = ["gdown>=5.0"]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+cacx-seg-infer = "cacx_seg.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["cacx_seg*"]

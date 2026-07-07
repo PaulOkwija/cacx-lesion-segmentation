@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.venv/
+venv/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Model weights (download separately, see README)
+*.pth
+*.pt
+
+# Runtime outputs
+outputs/
+results/
+
+# OS
+.DS_Store
