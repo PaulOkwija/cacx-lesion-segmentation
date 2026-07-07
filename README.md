@@ -159,7 +159,7 @@ Calling `segment()` on a single image renders a four-panel figure:
 The figure below is a synthetic illustration (plain colored shapes, not a
 real image) included only to show the layout:
 
-![Illustrative example of the four-panel output](assets/example_output.png)
+![Illustrative example of the four-panel output](assets/)
 
 ## Exporting labels
 
