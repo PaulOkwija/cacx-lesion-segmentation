@@ -17,7 +17,7 @@ decisions about a patient's diagnosis, treatment, or care. Any use in a
 clinical or clinical-adjacent setting requires independent validation
 appropriate to that setting.
 
-**Disclaimer.** This model is not intended to diagnose, treat, or otherwise guide the care of any patient. Its output is provided for research purposes only and must not be relied upon as a substitute for professional medical judgment. Any output produced by this model must be independently reviewed and verified by a licensed and experienced healthcare professional before it informs any clinical decision.
+The model was trained on only positive (VIA-mobile colposcopy) cases collected from an African Medical Facility (lesions may appear different for other demographics and image quality). The images were mixed (post and pre acetic acid). Account for these in any experiments you may use the model in.
 
 ## Contents
 
