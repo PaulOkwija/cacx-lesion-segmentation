@@ -49,7 +49,7 @@ cacx-lesion-segmentation/
 Requires Python 3.9 or later.
 
 ```bash
-git clone https://github.com/<your-username>/cacx-lesion-segmentation.git
+git clone https://github.com/paulokwija/cacx-lesion-segmentation.git
 cd cacx-lesion-segmentation
 
 python -m venv .venv
